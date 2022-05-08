@@ -22,7 +22,7 @@ atoms.center(vacuum=4.0)
 # write as a cif file
 write('CH4.cif',atoms)
 # you can write cif or espresso-in
-calc=GPAW(h=0.10, xc='PBE', txt='H20_relax.txt')   # define calculator
+calc=GPAW(h=0.10, xc='PBE', txt='CH4_relax.txt')   # define calculator
 atoms.calc=calc
 # optimize
 from ase.optimize import QuasiNewton
