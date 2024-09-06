@@ -41,9 +41,6 @@ The script uses a dataset named `Advertising.csv`, which should be located in th
 
 To run the script, execute the following command in your terminal:
 
-```bash
-python tv_advertising_analysis.py
-```
 ## Results
 
 - The script generates scatter plots showing how TV advertising budgets relate to sales figures.
