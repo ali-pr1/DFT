@@ -13,9 +13,35 @@ You can install these libraries using pip:
 ```bash
 pip install pandas matplotlib
 ```
-## Data
+# Data
+
 The script uses a dataset named `Advertising.csv`, which should be located in the same directory as the script. This dataset contains the following columns:
+
 - **TV**: Budget allocated to TV advertising.
 - **Sales**: Sales figures.
+
+# Script Breakdown
+
+1. **Data Loading**:
+    - The dataset is loaded into a pandas DataFrame.
+    - Basic information about the dataset is displayed using `df.info()`.
+
+2. **Data Preview**:
+    - A new DataFrame `df_new` is created by selecting the first 7 rows of the dataset.
+    - The contents of this new DataFrame are printed to verify the selection.
+
+3. **Scatter Plot**:
+    - A scatter plot is created to visualize the relationship between TV and Sales.
+    - Axis labels and a title are added for clarity.
+
+4. **Full Dataset Plotting**:
+    - An additional plot is generated to visualize all data points.
+
+# Running the Script
+
+To run the script, execute the following command in your terminal:
+
+```bash
+python tv_advertising_analysis.py
 
 
