@@ -12,4 +12,9 @@ You can install these libraries using pip:
 
 ```bash
 pip install pandas matplotlib
+## Data
+The script uses a dataset named `Advertising.csv`, which should be located in the same directory as the script. This dataset contains the following columns:
+- **TV**: Budget allocated to TV advertising.
+- **Sales**: Sales figures.
+
 
