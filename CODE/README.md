@@ -37,9 +37,7 @@ The script uses a dataset named `Advertising.csv`, which should be located in th
 4. **Full Dataset Plotting**:
     - An additional plot is generated to visualize all data points.
 
-# Running the Script
 
-To run the script, execute the following command in your terminal:
 
 ## Results
 
